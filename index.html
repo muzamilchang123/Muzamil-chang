@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzamil Hussain | AI Visionary</title>
+    <meta name="description" content="Portfolio of Muzamil Hussain - Innovative AI Developer & Creative Designer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <h2 class="loader-text">MH</h2>
+        </div>
+    </div>
+    <canvas id="bg-canvas"></canvas>
+    
+    <header class="glass-header">
+        <div class="logo-container">
+            <h1 class="glow-text">Muzamil Hussain</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="floating-contact">
+            <a href="https://linkedin.com/in/muzamil-hussain-890052331" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/muzamilchang123" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:muzamilchang2@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-visual-container">
+                    <div class="holographic-circle">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                </div>
+                <h2 class="animate-text">Innovative AI Developer & Creative Designer</h2>
+                <p class="subtext">Adept at building AI-powered applications and interactive software to solve real-world problems.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-3d-element" id="hero-3d">
+                <div class="hologram-effect"></div>
+            </div>
+        </section>
+
+        <section id="skills" class="section glass-panel">
+            <h2 class="section-title">Professional Skill Matrix</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>Python</span><span>95%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="tags">
+                        <span>HTML5</span><span>CSS3</span><span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML Specialist</h3>
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>MediaPipe</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-info"><span>Generative AI</span><span>88%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                    <div class="tags">
+                        <span>OpenCV</span><span>TensorFlow</span><span>NLP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cube"></i> Software & 3D</h3>
+                    <div class="tags">
+                        <span>Streamlit</span><span>Blender (3D Modeling)</span><span>Pillow</span><span>Unity</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Creative Suite</h3>
+                    <div class="tags">
+                        <span>Photoshop</span><span>Illustrator</span><span>Affinity Designer</span><span>Canva</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-bolt"></i> Efficiency</h3>
+                    <div class="tags">
+                        <span>Office Automation</span><span>Project Management</span><span>Agile</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects (Hall of Fame)</h2>
+            <div class="projects-container">
+                <div class="project-card glass-card">
+                    <div class="scifi-border"></div>
+                    <div class="project-visual airm-visual"><i class="fas fa-hand-sparkles"></i></div>
+                    <h3>AIR-M</h3>
+                    <span class="badge gold"><i class="fas fa-trophy"></i> 1st Position Award</span>
+                    <p>Flagship virtual calculator using AI hand gesture recognition. A revolutionary step in touchless computing.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Real-time hand tracking via MediaPipe</li>
+                        <li><i class="fas fa-check"></i> Complex math operations with gestures</li>
+                        <li><i class="fas fa-check"></i> Integrated Google GenAI for logic</li>
+                    </ul>
+                    <div class="tech-stack"><span>Python</span><span>MediaPipe</span><span>GenAI</span></div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="scifi-border"></div>
+                    <div class="project-visual veritas-visual"><i class="fas fa-video"></i></div>
+                    <h3>VERITAS</h3>
+                    <p>Advanced surveillance system for automated theft detection using live CCTV feeds.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Live stream analysis</li>
+                        <li><i class="fas fa-check"></i> Motion & Object Detection</li>
+                        <li><i class="fas fa-check"></i> Instant Alert System</li>
+                    </ul>
+                    <div class="tech-stack"><span>Python</span><span>OpenCV</span><span>Real-time</span></div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="scifi-border"></div>
+                    <div class="project-visual assistant-visual"><i class="fas fa-microphone-lines"></i></div>
+                    <h3>Personal AI Assistant</h3>
+                    <span class="badge"><i class="fas fa-medal"></i> 4th Position</span>
+                    <p>Voice-controlled Python assistant capable of automating daily desktop tasks.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Voice Command Recognition</li>
+                        <li><i class="fas fa-check"></i> Browser & App Automation</li>
+                        <li><i class="fas fa-check"></i> Context-aware responses</li>
+                    </ul>
+                    <div class="tech-stack"><span>Python</span><span>Speech Recog</span><span>Automation</span></div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="scifi-border"></div>
+                    <div class="project-visual eye-visual"><i class="fas fa-eye"></i></div>
+                    <h3>3rd Eye</h3>
+                    <p>AI-powered vision system for object recognition and situational awareness in real-time.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> Object Classification</li>
+                        <li><i class="fas fa-check"></i> Distance Estimation</li>
+                        <li><i class="fas fa-check"></i> Low-light enhancement</li>
+                    </ul>
+                    <div class="tech-stack"><span>Computer Vision</span><span>AI</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="section glass-panel">
+            <h2 class="section-title">Career Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SYS Tech Institute</h3>
+                        <span class="date">May 2025 – Present</span>
+                        <p class="role-title">Instructor & Mentor</p>
+                        <ul class="role-details">
+                            <li>Teaching CIT/DIT courses to over <span class="counter" data-target="100">0</span>+ successful students.</li>
+                            <li>Designed comprehensive curriculum for modern web development.</li>
+                            <li>Mentored students in building real-world capstone projects.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bright Future Model School</h3>
+                        <span class="date">May 2025 – Jan 2025</span>
+                        <p class="role-title">Multi-Disciplinary Educator</p>
+                        <ul class="role-details">
+                            <li>Taught Computer Science, Graphic Design, and General Science.</li>
+                            <li>Integrated digital tools into the standard curriculum.</li>
+                            <li>Achieved high student engagement and pass rates.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>I’M Restaurant Manager</h3>
+                        <span class="date">Jan – Apr 2025</span>
+                        <p class="role-title">Operations Manager</p>
+                        <ul class="role-details">
+                            <li>Led a team of <span class="counter" data-target="10">0</span> staff members in daily operations.</li>
+                            <li>Managed social media marketing to boost brand visibility.</li>
+                            <li>Overseeing customer service and quality assurance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="edu-card glass-card">
+                    <h3>BS in Computer Science</h3>
+                    <p>Shah Abdul Latif University (2020-2024)</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <h3>HSC Pre-Medical</h3>
+                    <p>Royal City Arts and Science College (2018)</p>
+                </div>
+            </div>
+            <div class="badges">
+                <h3>Badges</h3>
+                <div class="badge-list">
+                    <span class="cert-badge">Modern AI (Cisco)</span>
+                    <span class="cert-badge">Graphic Designing (NFTP)</span>
+                    <span class="cert-badge">Office Automation (IBA)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="extras" class="section glass-panel">
+            <h2 class="section-title">Personality & Extras</h2>
+            <div class="extras-content">
+                <div class="languages">
+                    <h3>Languages</h3>
+                    <p>Fluent in English, Urdu, and Sindhi</p>
+                </div>
+                <div class="interests">
+                    <h3>Interests</h3>
+                    <div class="interest-tags">
+                        <span>Cooking</span><span>Restaurant Management</span><span>Explaining Complex Concepts</span>
+                    </div>
+                </div>
+                <div class="style-note">
+                    <p><em>"Top-notch, playful, creative, and professional."</em></p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="glass-footer">
+            <h2>Let's Connect</h2>
+            <div class="contact-details">
+                <p><i class="fas fa-phone"></i> +92-3093630735</p>
+                <p><i class="fas fa-envelope"></i> muzamilchang2@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Chandia Moor, Sugar Mill colony Khairpur Mirs</p>
+            </div>
+            <p class="copyright">&copy; 2026 Muzamil Hussain. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Emergency Failsafe: Ensure preloader is removed even if script.js errors out
+        (function() {
+            function removeLoader() {
+                const loader = document.getElementById('preloader');
+                if(loader) loader.classList.add('hidden');
+            }
+            window.addEventListener('load', () => setTimeout(removeLoader, 1000));
+            setTimeout(removeLoader, 4000); // Absolute max wait
+        })();
+    </script>
+</body>
+</html>
